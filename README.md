@@ -18,9 +18,14 @@ This is a full-stack chat application built using the MERN (MongoDB, Express, Re
 - **Socket.io**: JavaScript library for real-time bidirectional event-based communication.
 - **Zustand**: State management library for React applications.
 
-## Test User Credentials:
+## Test Users Credentials:
 
-  - **Username:** emmanuel
+  ### User 1
+  - **Username:** user1@gmail.com
+  - **Password:** 123456
+
+  ### User 2
+  - **Username:** user2@gmail.com
   - **Password:** 123456
 
 ## Installation
