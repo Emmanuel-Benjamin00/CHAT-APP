@@ -1,31 +1,31 @@
-# Chat App - Frontend
+# Chat App
 
-This is the frontend repository for the MERN stack chat app. The app allows users to sign up, log in, and chat with other users in real-time using MongoDB, Express, React, 
-Node.js (MERN stack), and Socket.IO.
+This is a full-stack chat application built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to sign up, log in, send messages to each other, and view online status. Socket.io is implemented for real-time communication, providing instant message delivery and notification sounds upon message reception.
 
 ## Features
 
-- User signup: New users can create an account to use the chat app.
-- User login: Registered users can log in to access the chat functionality.
-- Real-time messaging: Users can send and receive messages to and from other users in the database.
-- Notification sound: A notification sound is played when a new message is received.
-- Online status: Users' online status is displayed to other users in the chat.
+- **User Authentication**: Users can sign up for a new account or log in with existing credentials.
+- **Real-Time Communication**: Socket.io enables instant messaging between users with real-time updates.
+- **Notification Sounds**: A notification sound is played upon receiving a new message.
+- **Online Status**: Users' online status is displayed, indicating whether they are currently active.
 
 ## Technologies Used
 
-- React: Frontend user interface development.
-- Zustand: State management for the React application.
-- Socket.IO: Real-time communication between the client and server.
-- HTML/CSS: Frontend styling and structure.
-- JavaScript: Programming language used for frontend logic.
-- npm: Package manager for installing dependencies.
+- **MongoDB**: NoSQL database used for storing user information and messages.
+- **Express.js**: Web application framework for building APIs and handling server-side logic.
+- **React**: Frontend library for building user interfaces.
+- **Node.js**: JavaScript runtime environment for executing server-side code.
+- **Socket.io**: JavaScript library for real-time bidirectional event-based communication.
+- **Zustand**: State management library for React applications.
 
-## Usage:
+## Test User Credentials:
 
-1. To get started with the Restaurant Website:
+  - **Username:** emmanuel
+  - **Password:** 123456
+
+## Installation
+
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/Emmanuel-Benjamin00/Chat-App.git
-
-## Additional Information
-
-For more detailed information on how the app works, refer to the [backend repository](https://github.com/Emmanuel-Benjamin00/E-Commerce-Backend) and its README.
