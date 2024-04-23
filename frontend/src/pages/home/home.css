@@ -1,0 +1,39 @@
+@media (max-width: 992px) {
+    .hometotal {
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .logoutbtnhiddeninsidebar {
+        display: none !important;
+    }
+
+    .chatfield {
+        max-width: 100vw !important;
+    }
+
+    .messinpcss {
+        margin-right: 8.5vw !important;
+        margin-top: 13vh !important;
+    }
+
+    .messagescss {
+        margin-right: 9vw !important
+    }
+
+    .messagecontainercss {
+        margin-right: 12vw !important
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .logouthiddeninmess {
+        display: none;
+    }
+}

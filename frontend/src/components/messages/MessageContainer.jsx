@@ -4,6 +4,8 @@ import MessageInput from "./MessageInput";
 import Messages from "./Messages";
 import { TiMessages } from "react-icons/ti";
 import { useAuthContext } from "../../context/AuthContext";
+import LogoutButton from "../sidebar/LogoutButton";
+import "../../pages/home/home.css"
 
 const MessageContainer = () => {
 	const { selectedConversation, setSelectedConversation } = useConversation();
@@ -18,7 +20,7 @@ const MessageContainer = () => {
 				<NoChatSelected />
 			) : (
 				<>
-					<div className='bg-rose-400 px-4 py-2 mb-2'>
+					<div className='bg-rose-400 px-4 py-2 mb-2 messagecontainercss'>
 						<span className='label-text text-white'>To:</span>{" "}
 						<span className='font-bold text-white'>{selectedConversation.fullName}</span>
 					</div>
@@ -26,6 +28,9 @@ const MessageContainer = () => {
 					<MessageInput />
 				</>
 			)}
+			<div className="logouthiddeninmess">
+			<LogoutButton/>
+			</div>
 		</div>
 	);
 };

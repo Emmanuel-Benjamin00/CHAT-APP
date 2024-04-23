@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BsSend } from "react-icons/bs";
 import useSendMessage from "../../hooks/useSendMessage";
+import "../../pages/home/home.css"
 
 const MessageInput = () => {
 	const [message, setMessage] = useState("");
@@ -14,7 +15,7 @@ const MessageInput = () => {
 	};
 
 	return (
-		<form className='px-4 my-3' onSubmit={handleSubmit}>
+		<form className='px-4 my-3 messinpcss' onSubmit={handleSubmit}>
 			<div className='w-full relative'>
 				<input
 					type='text'
